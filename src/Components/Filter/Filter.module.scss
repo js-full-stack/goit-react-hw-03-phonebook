@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  padding: 5px;
+}
+
+.text {
+  font-size: 20px;
+  display: inline-block;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.filter {
+  display: flex;
+}
+
+.iconSearch {
+  margin-right: 10px;
+  width: 15px;
+  height: 15px;
+}

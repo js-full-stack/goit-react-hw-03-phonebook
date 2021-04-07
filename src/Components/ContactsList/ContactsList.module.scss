@@ -1,0 +1,38 @@
+.btnDelete {
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+  margin-left: 40px;
+  width: 90px;
+  padding: 6px;
+  background-color: #f4f4f4;
+}
+
+.btnDelete:focus {
+  background-color: red;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  padding-bottom: 9px;
+  padding-top: 9px;
+}
+
+.contact:hover .textContact {
+  border-bottom: 1px solid rgb(53, 24, 14);
+  padding-bottom: 7px;
+}
+
+.iconRemove {
+  margin-left: 6px;
+  width: 17px;
+  height: 17px;
+}
